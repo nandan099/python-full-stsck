@@ -19,10 +19,8 @@ print()
 # ex 3
 def fibonacci_generator(n):
     a, b = 0, 1
-    sequence = []
     for _ in range(n):
         yield a
-        sequence.append(a)
         a, b = b, a + b
 for num in fibonacci_generator(10):
     print(num, end=' ')
