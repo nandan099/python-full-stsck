@@ -24,5 +24,5 @@ print(find_largest([3, 1, 4, 1, 5, 9, 2, 6, 5]))
 # ex 4
 data = [7, 2, 8, 1, 4]
 data.sort()
-largest_value = data[-1]
-print(largest_value)
+largest = data[-1]
+print(largest)

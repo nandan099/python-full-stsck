@@ -14,6 +14,6 @@ print(char_frequency("hello world"))
 def count_characters(s):
     count = {}
     for char in s:
-        count[char] = count.get(char, 0) + 1
+        count[char] = count.get(char, 0)  + 1
     return count
-print(count_characters("data science"))
+print(count_characters("python"))

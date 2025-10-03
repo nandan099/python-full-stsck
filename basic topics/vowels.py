@@ -33,4 +33,4 @@ print(count_vowels("Count the vowels!"))
 def count_vowels(s):
     vowels = "aeiouAEIOU"
     return sum(char in vowels for char in s)
-print(count_vowels("Another example!"))
+print(count_vowels("Hello World"))

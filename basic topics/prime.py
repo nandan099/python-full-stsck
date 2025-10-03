@@ -25,4 +25,4 @@ def check_prime(num):
         if num % i == 0:
             return False
     return True
-print(check_prime(15))
+print(check_prime(10))

@@ -16,10 +16,10 @@ for _ in range(n):
     a, b = b, a + b 
 print() 
 
-# ex 3
+# # ex 3
 def fibonacci_generator(n):
     a, b = 0, 1
-    for _ in range(n):
+    for i in range(n):
         yield a
         a, b = b, a + b
 for num in fibonacci_generator(10):

@@ -4,10 +4,10 @@ unique_numbers = list(set(numbers))
 print(unique_numbers)
 
 # ex 2
-def remove_duplicates(nums):
+def duplicates(nums):
     unique  = []
     for num in nums:
         if num not in unique:
             unique.append(num)
     return unique
-print(remove_duplicates([1, 2, 2, 3, 4, 4, 5]))
+print(duplicates([1, 2, 2, 3, 4, 4, 5]))
